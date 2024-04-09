@@ -8,8 +8,8 @@
 }
 
 body {
-    background: #1f242d;
-    color: #fff;
+    background: #FEF9C7;
+    color: black;
 }
 
 .header {
@@ -28,7 +28,7 @@ body {
 
 .logo {
     font-size: 25px;
-    color: #fff;
+    color: #0F292F;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -40,7 +40,7 @@ body {
 .navbar a {
     display: inline-block;
     font-size: 18px;
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
@@ -218,8 +218,6 @@ body {
     #small3 {
         font-size: 20px;
     }
-
-    .about .skills {}
 }
 
 .as {
