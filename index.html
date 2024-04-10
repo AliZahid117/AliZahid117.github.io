@@ -44,9 +44,10 @@
         </div>
 
         <div class="home-img">
-            <img src="./Home-5.png" alt="Portrait of Ali">
+            <img id="image" src="./Home-5.png" alt="Portrait of Ali">
         </div>
     </section>
+
     <section class="as" id="about">
         <p class="about">From making my first computer at the age of eight to now learning how to program I have always
             been fascinated by
@@ -57,10 +58,74 @@
         <p class="skills" id="skills">Skills:<br> HTML, CSS, JavaScript</p>
     </section>
 
+    <section id="portfolio" class="portfolio-container">
+        <h1>Portfolio</h1>
+        <p>Click on the cards below to see some of the different websites I have designed.</p>
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1" checked>
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>Neon Punk Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Organic Fruit Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Car Company Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>Travel Company Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section class="game-container" id="play">
+        <h1>Play</h1>
+        <iframe class="game-item" src="./JS Game - Help Juliet catch Romeo/index.html" title="game"
+            frameborder="0"></iframe>
+        <iframe class="game-item" src="./Number Guesser Game/index.html" title="game" frameborder="0"></iframe>
+
+
+    </section>
+
+    <footer class="contact-container">
+        <h3 id="contact">Contact information:</h3>
+        <p>email: alizahid98@live.co.uk</p>
+        <p>phone: 07944588500</p>
+    </footer>
+
 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
