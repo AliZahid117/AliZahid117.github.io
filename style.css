@@ -285,23 +285,6 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
-    /*.home-img img {
-        display: block;
-        margin: auto;
-        margin-left: 50px;
-    }
-
-    .home-img {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home-content {
-        flex: 1;
-    }
-    */
 
     .home {
         display: flex;
@@ -321,11 +304,9 @@ body {
         margin: auto;
     }
 
-    .navbar a {
-        font-size: 30px;
-    }
-
 }
+
+
 
 @media screen and (max-width: 425px) {
     .home-content {
@@ -340,16 +321,28 @@ body {
 
     }
 
+
     .home {
-        height: 100vh;
+        margin-bottom: 300px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
     }
 
 
     .navbar a {
         font-size: small;
-        position: relative;
         display: block;
-        line-height: 20px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        position: relative;
+        left: 200px;
+
     }
 
     .logo {
@@ -358,44 +351,75 @@ body {
     }
 
     .home-img img {
-        width: 170px;
+        width: 350px;
         position: relative;
-        right: 20px;
-        bottom: 200px;
+        left: 100px;
+        bottom: 100px;
 
     }
 
-    .header {
-        position: relative;
+    .home-content h3 {
+        font-size: 40px;
+
     }
 
-    #small1 {
+    .home-content h1 {
+        font-size: 60px;
+    }
+
+    .multiple-text {
+        font-size: 40px;
+        overflow: hidden;
+
+    }
+
+    .text-animation-container {
+        height: 300px;
+    }
+
+    .btn {
         font-size: 20px;
+        white-space: nowrap;
     }
 
-    #small2 {
-        font-size: 30px;
-    }
 
-    #small3 {
-        font-size: 20px;
-        height: 100px;
-    }
+
+
 
     .as p {
-        font-size: 10px;
+        font-size: 20px;
         align-self: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .as {
         display: flex;
         flex-direction: column;
-        transform: translatey(-50px);
+        justify-content: center;
+        width: 100vh;
+        margin-top: 400px;
+    }
+
+    .portfolio-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+
+
+
+
+    .container {
+        display: flex;
+        align-self: center;
+
+        margin-bottom: 100px;
     }
 }
 
-.game-container {}
+
 
 .game-container h1 {
     text-align: center;
@@ -440,7 +464,7 @@ body {
     }
 }
 
-.card {}
+
 
 .wrapper {
     width: 100%;
@@ -455,6 +479,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
+    margin-bottom: 100px;
 }
 
 .card {
@@ -538,7 +563,7 @@ input:checked+label .description {
 }
 
 .card[for="c4"] {
-    background-image: url('./A\ medieval-themed\ website\ design\ template.jpg');
+    background-image: url('./Travel-company.png');
 }
 
 .portfolio-container {
