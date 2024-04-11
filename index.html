@@ -20,40 +20,122 @@
             <a href="#about" style="--i:2;">About</a>
             <a href="#skills" style="--i:3;">Skills</a>
             <a href="#portfolio" style="--i:4;">Portfolio</a>
-            <a href="#contact" style="--i:5;">Contact</a>
+            <a href="#play" style="--i:5;">Play</a>
+            <a href="#contact" style="--i:6;">Contact</a>
         </nav>
     </header>
 
     <section class="home">
         <div class="home-content">
-            <h3 id="small1">Hello, I'm</h3>
-            <h1 id="small2">Ali Zahid</h1>
-            <h3 id="small3">and I'm <span class="multiple-text" id="small4"></span></h3>
-            <p>Welcome! Enjoy lookng around!</p>
-            <div class="social-media">
-                <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
-                <a href="#" style="--i:8;"><i class='bx bxl-twitter'></i></a>
-                <a href="#" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#" style="--i:10;"><i class='bx bxl-linkedin'></i></a>
+
+            <h3>Hello, I'm</h3>
+            <h1>Ali Zahid</h1>
+            <div class="text-animation-container">
+                <h3>and I'm <span class="multiple-text"></span></h3>
             </div>
-            <a href="Ali_Zahid_CV.pdf" class="btn" download>Download CV</a>
+            <p>Welcome! Enjoy lookng around!</p>
+
+            <div class="social-media">
+
+                <!--Social media buttons add back in at a later date -->
+                <!--<a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-twitter'></i></a>
+                <a href="#" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a> -->
+                <a href="https:www.linkedin.com/in/ali-zahid-6a41262b8" target="blank" style="--i:10;"><i
+                        class='bx bxl-linkedin'></i></a>
+
+
+            </div>
+            <a href="./Ali_Zahid_CV.pdf" class="btn" download>Download CV</a>
+
+
         </div>
 
         <div class="home-img">
-            <img src="home.png" alt="Portrait of Ali">
+            <img id="image" src="./Home-5.png" alt="Portrait of Ali">
         </div>
+
+
     </section>
+
     <section class="as" id="about">
-        <p class ="about">From making my first computer at the age of eight to now learning how to program I have always been fascinated by
-        computers. I have been self-learning programming through Codeacademy, Coursera and various other online resources. I
-        enjoy learning computer programming. This is a work-in-progress site, I will be continuously updating this site.</p>
+        <p class="about">About me: From making my first computer at the age of eight to now learning how to program I
+            have always
+            been fascinated by
+            computers. I have been self-learning programming through Codeacademy, Coursera and various other online
+            resources. I
+            enjoy learning computer programming.</p>
         <p class="skills" id="skills">Skills:<br> HTML, CSS, JavaScript</p>
     </section>
+
+    <section id="portfolio" class="portfolio-container">
+        <h1 id="test">Portfolio</h1>
+        <p>Click on the cards below to see some of the different websites I have designed.</p>
+        <div class="wrapper">
+            <div class="container">
+                <input type="radio" name="slide" id="c1">
+                <label for="c1" class="card">
+                    <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                            <h4>Neon Punk Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c2">
+                <label for="c2" class="card">
+                    <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                            <h4>Organic Fruit Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="card">
+                    <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                            <h4>Car Company Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+                <input type="radio" name="slide" id="c4">
+                <label for="c4" class="card">
+                    <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                            <h4>Travel Company Website Design</h4>
+                            <p></p>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </section>
+
+    <section class="game-container" id="play">
+        <h1>Play</h1>
+        <iframe class="game-item" src="./JS Game - Help Juliet catch Romeo/index.html" title="game"
+            frameborder="0"></iframe>
+        <iframe class="game-item" src="./Number Guesser Game/index.html" title="game" frameborder="0"></iframe>
+
+
+    </section>
+
+    <footer class="contact-container">
+        <h3 id="contact">Contact information:</h3>
+        <p>email: alizahid98@live.co.uk</p>
+        <p>phone: 07944588500</p>
+    </footer>
 
 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
