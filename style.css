@@ -601,8 +601,8 @@ input:checked+label .description {
     }
 
     .contact-container {
-        margin-bottom: 1px;
-        width: 100vh;
+        margin-bottom: 5px;
+        width: 100vw;
     }
 
 }
