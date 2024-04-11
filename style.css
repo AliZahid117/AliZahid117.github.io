@@ -15,14 +15,13 @@ body {
 .header {
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     padding: 20px 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-
 
 }
 
@@ -305,7 +304,7 @@ body {
 }
 
 .game-container {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -320,9 +319,7 @@ body {
 
 }
 
-.contact-container {
-    background-color: initial;
-}
+
 
 .contact-container.visible {
     animation: changeColor 1s ease-in-out forwards;
@@ -331,6 +328,8 @@ body {
 .contact-container {
     margin-top: 100px;
     animation: fadeIn 2s ease-in-out;
+    background-color: initial;
+    width: 100%;
 }
 
 @keyframes changeColor {
@@ -476,11 +475,11 @@ input:checked+label .description {
 @media (max-width: 425px) {
     .home-content {
         font-size: 10px;
-        /* Reduce font size */
+        
         width: 150px;
-        /* Reduce width */
+        
         height: 150px;
-        /* Reduce height */
+        
         position: relative;
         bottom: 250px;
 
@@ -608,15 +607,12 @@ input:checked+label .description {
 
 
 
+
 @media (min-width: 426px) and (max-width: 1023px) {
-    .home-img img {
-        width: 350px;
-        position: relative;
-        bottom: 90px;
-    }
+
 
     .header {
-        width: 100vw;
+        width: 100%;
         display: flex;
 
 
@@ -646,7 +642,7 @@ input:checked+label .description {
 
     #about {
         margin-top: 200px;
-        width: 100vw;
+        width: 100%;
         display: flex;
         justify-content: space-around;
 
@@ -654,7 +650,7 @@ input:checked+label .description {
 
     .portfolio-container {
         display: flex;
-        width: 100vw;
+        width: 100%;
         justify-content: center;
         align-items: center;
 
@@ -674,7 +670,7 @@ input:checked+label .description {
     }
 
     .game-container {
-        width: 100vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -683,6 +679,49 @@ input:checked+label .description {
 
 
 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .navbar a {
+        font-size: 30px;
+    }
+
+    .home-content h3 {
+        font-size: 50px;
+    }
+
+    .home-content h1 {
+        font-size: 70px;
+    }
+
+   .as{
+    margin-top: 200px;
+   }
+
+    .text-animation-container {
+        height: 300px;
+        position: relative;
+
+    }
+
+    .home-content p {
+        font-size: 40px;
+    }
+
+    .home-img img {
+        position: absolute;
+        left: 900px;
+        bottom: 290px;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -720,8 +759,10 @@ input:checked+label .description {
     .home-img img {
         position: absolute;
         left: 1000px;
-        bottom: 320px;
+        bottom: 590px;
     }
 
-
+    .contact-container {
+        width: 100%;
+    }
 }
