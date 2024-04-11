@@ -15,13 +15,14 @@ body {
 .header {
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     padding: 20px 10%;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
 
 }
 
@@ -284,140 +285,11 @@ body {
 
 }
 
-@media screen and (min-width: 1440px) {
-
-    .home {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .home-content,
-    .home-img {
-        width: 50%;
-    }
-
-    .navbar {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        margin: auto;
-    }
-
-}
-
-
-
-@media screen and (max-width: 425px) {
-    .home-content {
-        font-size: 10px;
-        /* Reduce font size */
-        width: 150px;
-        /* Reduce width */
-        height: 150px;
-        /* Reduce height */
-        position: relative;
-        bottom: 250px;
-
-    }
-
-
-    .home {
-        margin-bottom: 300px;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-    .navbar a {
-        font-size: small;
-        display: block;
-        line-height: 30px;
-        font-size: 20px;
-    }
-
-    .navbar {
-        position: relative;
-        left: 200px;
-
-    }
-
-    .logo {
-        position: relative;
-        right: 20px;
-    }
-
-    .home-img img {
-        width: 350px;
-        position: relative;
-        left: 100px;
-        bottom: 100px;
-
-    }
-
-    .home-content h3 {
-        font-size: 40px;
-
-    }
-
-    .home-content h1 {
-        font-size: 60px;
-    }
-
-    .multiple-text {
-        font-size: 40px;
-        overflow: hidden;
-
-    }
-
-    .text-animation-container {
-        height: 300px;
-    }
-
-    .btn {
-        font-size: 20px;
-        white-space: nowrap;
-    }
 
 
 
 
 
-    .as p {
-        font-size: 20px;
-        align-self: center;
-        margin-bottom: 20px;
-    }
-
-    .as {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100vh;
-        margin-top: 400px;
-    }
-
-    .portfolio-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 60px;
-    }
-
-
-
-
-
-    .container {
-        display: flex;
-        align-self: center;
-
-        margin-bottom: 100px;
-    }
-}
 
 
 
@@ -430,6 +302,14 @@ body {
     margin-bottom: 20px;
 
 
+}
+
+.game-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -552,6 +432,7 @@ input:checked+label .description {
 
 .card[for="c1"] {
     background-image: url('./Neon-punk-themed-website.png');
+
 }
 
 .card[for="c2"] {
@@ -584,5 +465,263 @@ input:checked+label .description {
 
 .portfolio-container p {
     font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+
+
+
+@media (max-width: 425px) {
+    .home-content {
+        font-size: 10px;
+        /* Reduce font size */
+        width: 150px;
+        /* Reduce width */
+        height: 150px;
+        /* Reduce height */
+        position: relative;
+        bottom: 250px;
+
+    }
+
+
+    .home {
+        margin-bottom: 300px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .navbar a {
+        font-size: small;
+        display: block;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .navbar {
+        position: relative;
+        left: 250px;
+
+    }
+
+    .logo {
+        position: relative;
+        right: 20px;
+    }
+
+    .home-img img {
+        width: 350px;
+        position: relative;
+        left: 100px;
+        bottom: 100px;
+
+    }
+
+    .home-content h3 {
+        font-size: 40px;
+
+    }
+
+    .home-content h1 {
+        font-size: 60px;
+    }
+
+    .multiple-text {
+        font-size: 40px;
+        overflow: hidden;
+
+    }
+
+    .text-animation-container {
+        height: 300px;
+    }
+
+    .btn {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
+    .as p {
+        font-size: 20px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .as {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vh;
+        margin-top: 400px;
+    }
+
+    .portfolio-container {
+        display: flex;
+        width: 100vh;
+    }
+
+    .portfolio-container p {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+
+    .card {
+        height: 400px;
+        justify-content: center;
+        width: 200px
+    }
+
+    .container {
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .game-container {
+        margin-top: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vh;
+
+    }
+
+    .game-item:nth-of-type(2) {
+        margin: auto;
+
+    }
+
+    .contact-container {
+        margin-bottom: 1px;
+        width: 100vh;
+    }
+
+}
+
+
+
+@media (min-width: 426px) and (max-width: 1023px) {
+    .home-img img {
+        width: 350px;
+        position: relative;
+        bottom: 90px;
+    }
+
+    .header {
+        width: 100vw;
+        display: flex;
+
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        right: 40px;
+    }
+
+    .logo {
+        position: relative;
+        right: 30px;
+    }
+
+
+    .text-animation-container {
+        height: 200px;
+    }
+
+    .btn {
+        font-size: 20px;
+        white-space: nowrap;
+    }
+
+    #about {
+        margin-top: 200px;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .portfolio-container {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .wrapper {
+        margin-top: 80px;
+    }
+
+    .card {
+        height: 400px;
+
+    }
+
+    input:checked+label {
+        width: 400px;
+    }
+
+    .game-container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .logo {
+        font-size: 40px;
+    }
+
+    .navbar a {
+        font-size: 30px;
+    }
+
+    .home-content h3 {
+        font-size: 50px;
+    }
+
+    .home-content h1 {
+        font-size: 70px;
+    }
+
+    .social-media {
+        position: relative;
+    }
+
+    .text-animation-container {
+        height: 300px;
+        position: relative;
+
+    }
+
+    .home-content p {
+        font-size: 40px;
+    }
+
+    .home-img img {
+        position: absolute;
+        left: 1000px;
+        bottom: 320px;
+    }
+
 
 }
