@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ali Zahid Portfolio website</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,14 +28,13 @@
 
     <section class="home">
         <div class="home-content">
-
             <h3>Hello, I'm</h3>
             <h1>Ali Zahid</h1>
             <div class="text-animation-container">
                 <h3>and I'm <span class="multiple-text"></span></h3>
             </div>
             <p>Welcome! Enjoy lookng around!</p>
-
+            
             <div class="social-media">
 
                 <!--Social media buttons add back in at a later date -->
@@ -43,19 +43,13 @@
                 <a href="#" style="--i:9;"><i class='bx bxl-instagram-alt'></i></a> -->
                 <a href="https:www.linkedin.com/in/ali-zahid-6a41262b8" target="blank" style="--i:10;"><i
                         class='bx bxl-linkedin'></i></a>
-
-
             </div>
             <a href="./Ali_Zahid_CV.pdf" class="btn" download>Download CV</a>
-
-
         </div>
 
         <div class="home-img">
             <img id="image" src="./Home-5.png" alt="Portrait of Ali">
         </div>
-
-
     </section>
 
     <section class="as" id="about">
@@ -119,9 +113,12 @@
 
     <section class="game-container" id="play">
         <h1>Play</h1>
-        <iframe class="game-item" src="./Romeo and Juliet game/" title="game"
-            frameborder="0"></iframe>
-        <iframe class="game-item" src="./Beat the computer game/" title="game" frameborder="0"></iframe>
+        <iframe class="game-item" id="romeo" src="./Romeo and Juliet game/" title="game" frameborder="0"></iframe>
+
+        <iframe class="game-item" id="number" src="./Beat the computer game/" title="game" frameborder="0"></iframe>
+
+        <iframe class="game-item" id="mole" src="./Mole Game/" title="game" frameborder="0"></iframe>
+
 
 
     </section>
@@ -136,6 +133,7 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="./script.js"></script>
+    <script src="./test.js"></script>
 </body>
 
 </html>
