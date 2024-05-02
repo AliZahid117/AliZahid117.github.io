@@ -477,7 +477,7 @@ input:checked+label .description {
     #image {
         width: 100%;
         position: relative;
-        margin-bottom: 800px;
+        margin-bottom: 400px;
 
     }
 
@@ -486,7 +486,7 @@ input:checked+label .description {
         height: 500px;
         width: 150px;
         position: relative;
-        margin-bottom: 600px;
+        margin-bottom: 300px;
         right: 30px;
     }
 
@@ -505,14 +505,13 @@ input:checked+label .description {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        position: relative;
-        bottom: 400px;
+       
     }
 
     .portfolio-container {
         display: flex;
         position: relative;
-        bottom: 400px;
+        
 
     }
 
@@ -527,14 +526,14 @@ input:checked+label .description {
         justify-content: center;
         width: 100px;
         position: relative;
-        margin-bottom: 0px;
+        
     }
 
     .container {
         height: 200px;
         display: flex;
         flex-wrap: wrap;
-        margin-bottom: 800px;
+        
     }
 
     input:checked+label {
@@ -544,7 +543,7 @@ input:checked+label .description {
     .game-container {
         overflow: hidden;
         position: relative;
-        bottom: 500px;
+        top: 400px;
     }
 
 
@@ -563,6 +562,12 @@ input:checked+label .description {
 
     .game-item {
         margin: -150px;
+    }
+
+    .contact-container{
+        position: relative;
+        top: 400px;
+
     }
 
 }
