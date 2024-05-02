@@ -477,11 +477,11 @@ input:checked+label .description {
 @media (max-width: 425px) {
     .home-content {
         font-size: 10px;
-        
+
         width: 150px;
-        
+
         height: 150px;
-        
+
         position: relative;
         bottom: 250px;
 
@@ -701,9 +701,9 @@ input:checked+label .description {
         font-size: 70px;
     }
 
-   .as{
-    margin-top: 200px;
-   }
+    .as {
+        margin-top: 200px;
+    }
 
     .text-animation-container {
         height: 300px;
