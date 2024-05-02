@@ -470,7 +470,7 @@ input:checked+label .description {
 
 
 @media (max-width: 425px) {
-    
+
     #image {
         width: 100%;
         position: relative;
@@ -502,13 +502,13 @@ input:checked+label .description {
         display: flex;
         flex-direction: column;
         justify-content: center;
-       
+
     }
 
     .portfolio-container {
         display: flex;
         position: relative;
-        
+
 
     }
 
@@ -523,14 +523,14 @@ input:checked+label .description {
         justify-content: center;
         width: 100px;
         position: relative;
-        
+
     }
 
     .container {
         height: 200px;
         display: flex;
         flex-wrap: wrap;
-        
+
     }
 
     input:checked+label {
@@ -561,7 +561,7 @@ input:checked+label .description {
         margin: -150px;
     }
 
-    .contact-container{
+    .contact-container {
         height: 100px;
         margin-top: 400px;
     }
