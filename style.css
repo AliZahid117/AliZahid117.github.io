@@ -469,7 +469,7 @@ input:checked+label .description {
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 430px) {
 
     #image {
         width: 100%;
@@ -524,6 +524,12 @@ input:checked+label .description {
         width: 100px;
         position: relative;
 
+    }
+
+    .description h4{
+        font-size: 15px;
+        margin-left: 25%;
+        
     }
 
     .container {
