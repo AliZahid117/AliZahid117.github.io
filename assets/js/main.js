@@ -145,5 +145,6 @@ sr.reveal(`.home__handle`, { delay: 700 })
 sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' })
 
 //Todo: looped scroll reveals
-sr.reveal(`.about__data`, { delay: 100, reset: true })
-sr.reveal(`.skills__container`, { delay: 100, reset: true })
+sr.reveal(`.about__data`, { delay: 5, duration: 1500, reset: true })
+sr.reveal(`.skills__container`, { delay: 5, duration: 1500, reset: true })
+sr.reveal(`.services__container`, { delay: 5, duration: 1500, reset: true })
