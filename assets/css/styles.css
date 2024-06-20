@@ -657,6 +657,12 @@ body.light-theme {
 /*=============== WORK ===============*/
 .work__container {
   padding-top: 1rem;
+  display: flex;
+  /* Add this */
+  justify-content: center;
+  /* Add this */
+  flex-wrap: wrap;
+  /* Add this */
 }
 
 .work__filters {
@@ -679,12 +685,20 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: 1rem;
+  overflow-wrap: break-word;
+  width: 400px;
+  /* Adjust this value as needed */
+  white-space: normal;
 }
 
 .work__img {
   border-radius: 1rem;
-  margin-bottom: .75rem;
+  display: block;
+  /* Add this */
+  margin: 0 auto .75rem auto;
+  /* Adjust this */
 }
+
 
 .work__title {
   font-size: var(--normal-font-size);
@@ -722,7 +736,8 @@ body.light-theme {
   padding: 1.25rem 1.5rem;
   border-radius: 1.5rem;
   margin-bottom: 3rem;
-  height: 24rem; /*! to adjust the hight of the card, this gives it a fixed hight */
+  height: 24rem;
+  /*! to adjust the hight of the card, this gives it a fixed hight */
 }
 
 .testimonial__img {
