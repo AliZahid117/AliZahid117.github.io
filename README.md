@@ -38,8 +38,6 @@ This portfolio website is designed to highlight my professional journey, skills,
 - **MixItUp.js** (for filtering and sorting)
 
 ## Project Structure
-
-```plaintext
 .
 ├── assets/
 │   ├── Art/
